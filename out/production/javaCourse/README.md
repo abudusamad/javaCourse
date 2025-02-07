@@ -16,6 +16,7 @@ This project is a Java console application that reads and analyzes the grades of
 ## Project Objectives
 
 This project aims to:
+
 - Demonstrate how to create, initialize, and manipulate arrays in Java.
 - Show proficiency with conditional statements.
 - Utilize string formatting to display data in a structured format.
@@ -37,25 +38,31 @@ This project aims to:
 ## Setup and Execution
 
 ### Prerequisites
+
 - **Java Development Kit (JDK) 21**: Make sure JDK 21 is installed and configured on your system.
 
 ### Running the Program
+
 1. **Clone or Download the Repository**:
+
    ```bash
    git clone <repository-url>
    cd <repository-directory>
 
 
 2. **Compile the Java Program**:
+
    ```bash
     javac StudentGradesAnalysis.java
 
 
 3. **Run the Java Program**:
+
     ```bash
     java StudentGradesAnalysis
 
 ## Usage
+
 Enter Grades: On running the program, you will be prompted to enter exactly 20 integer grades between 0 and 100, separated by spaces.
 View Results: The program will display:
 Maximum, minimum, and average grades.
@@ -65,12 +72,14 @@ Exit: After displaying results, the program will terminate automatically.
 ## Sample Input and Output
 
 ### Sample Input
-```
+
+```plaintext
 Enter the 20 grades: 85 92 88 78 60 45 75 80 95 100 65 70 55 50 40 35 30 25 20 15
 ```
 
 ### Sample Output
-```
+
+```plaintext
 Maximum Grade: 100
 Minimum Grade: 15
 Average Grade: 59.5
@@ -91,6 +100,7 @@ Grade Distribution Graph:
 ```
 
 ## Project Structure
+
 StudentGradesAnalysis.java: The main Java file containing:
 Main Method: Handles input collection, validation, and function calls.
 Helper Methods:
@@ -112,8 +122,10 @@ displayGraph(): Generates and displays the bar graph.
 | Bar Graph          | 10     | The bar graph should be visually appealing and accurately represent the grade distribution. |
 
 ## Note
+
 Input Validation: The program will terminate if input is not exactly 20 grades or if any grade falls outside the 0-100 range.
 Dynamic Graph: The bar graph adjusts to the grade distribution dynamically based on the input.
 
 ## Conclusion
-This project provides a hands-on example of working with arrays, conditional logic, and basic statistical operations in Java, while also demonstrating string formatting techniques for structured console output. The dynamic graph generation helps in visualizing data in a compact, easy-to-read format.
+
+This project provides a hands-on example of working with arrays, conditional logic, and basic statistical operations in Java, while also demonstrating string formatting techniques for structured console output. The dynamic graph generation helps in visualizing data in a compact, easy-to-read format, enhancing the user experience and understanding of the results.
